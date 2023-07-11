@@ -25,7 +25,7 @@ Time left: No due
 
 ## **Practice Quiz: Fundamental Relational Database Concepts**
 
-****1.****Question 1
+**1.** Question 1
 
 Which of the following statements about Data models is correct?
 
