@@ -4,7 +4,7 @@ COURSE CODE: IBM DE
 Complete: No
 Time left: No due
 
-# ****ETL and ELT Processes****
+# **ETL and ELT Processes**
 
 ![Untitled](Course%208%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell,%20Airf%208ce1d42ed6c94c1f8d581c75609ee85b/Untitled.png)
 
@@ -23,7 +23,7 @@ Time left: No due
 
 ## **Practice Quiz: ETL and ELT Processes**
 
-****1.****Question 1
+**1.**Question 1
 
 ETL process consists of Extract > Transform > Load. Which of these three processes is also known as data wrangling?
 
@@ -37,7 +37,7 @@ Load
 
 *Correct, this process wrangles the data into the format suitable for destination and use.*
 
-****2.****Question 2
+**2.**Question 2
 
 What is the main difference between the ELT and ETL process?
 
@@ -51,7 +51,7 @@ ETL used primarily for cloud
 
 *Correct, ELT and ETL have similar stages but the order they process is different.*
 
-****3.****Question 3
+**3.**Question 3
 
 Transformations for ETL happen in the data pipeline. Where do transformations happen for ELT?
 
@@ -65,7 +65,7 @@ Source environment
 
 *Correct, ELT transformations happen in the destination environment.*
 
-****4.****Question 4
+**4.**Question 4
 
 Which of the following raw data sources is related to sales?
 
@@ -79,7 +79,7 @@ Survey data
 
 *Correct, transactional data from business, financial, real estate, and point-of sale (POS) transactions.*
 
-****5.****Question 5
+**5.**Question 5
 
 Which of the following data transformation techniques involves unlike data sources?
 
@@ -95,7 +95,7 @@ Filtering, sorting, aggregation
 
 ## **Graded Quiz: ETL and ELT Processes**
 
-****1.****Question 1
+**1.**Question 1
 
 ETL process consists of Extract > Transform > Load. Which of these three processes is also known as data wrangling?
 
@@ -109,7 +109,7 @@ Extraction
 
 *Correct, this process wrangles the data into the format suitable for destination and use.*
 
-****2.****Question 2
+**2.**Question 2
 
 The ELT process has no information loss. What is the main reason for this benefit?
 
@@ -123,7 +123,7 @@ Separation between moving and processing dat**a**
 
 *Correct, ELT provides a replica of the source data, and with that no information loss occurs.*
 
-****3.****Question 3
+**3.**Question 3
 
 ETL processes include a storage facility called a staging area. In ELT the staging area fits the description of what?
 
@@ -137,7 +137,7 @@ Data warehouse
 
 *Correct, the staging area fits the description of a data lake, which is a modern self-serve repository for storing and manipulating raw data.*
 
-****4.****Question 4
+**4.**Question 4
 
 Which of the following pain points does ELT address?
 
@@ -151,7 +151,7 @@ Cost effectiveness
 
 *Correct, challenges like scalability imposed by Big Data are addressed.*
 
-****5.****Question 5
+**5.**Question 5
 
 There are many techniques for extracting data. Choosing the technique usually depends on what?
 
@@ -165,7 +165,7 @@ Optical or analog
 
 *Correct, it depends on the intended use of the data.*
 
-****6.****Question 6
+**6.**Question 6
 
 Extracting data from IoT devices involves large volumes of redundant data. What is used to decrease the data volume of redundant data and only extract features of interest from raw data?
 
@@ -179,7 +179,7 @@ APIs
 
 *Correct, edge computing reduces the data volumes of redundant data by extracting features of interest from the raw data.*
 
-****7.****Question 7
+**7.**Question 7
 
 ETL uses the schema-on-write approach and ELT uses the schema-on-read approach. What is the biggest difference in these two approaches?
 
@@ -193,7 +193,7 @@ More data access
 
 *Correct, the ETL approach limits the versatility, while the ELT approach is versatile since it obtains mulitple views of the same source data with ad-hoc schemas.*
 
-****8.****Question 8
+**8.**Question 8
 
 Which of the following examples of information loss during transformation can involve false negatives?
 
@@ -207,7 +207,7 @@ Filtering
 
 *Correct, Edge computing devices, for example, false negatives appear in surveillance devices designed to only stream alarm signals, not the raw data.*
 
-****9.****Question 9
+**9.**Question 9
 
 Which of the following loading techniques is between batch and stream loading?
 
@@ -221,7 +221,7 @@ On-demand loading
 
 *Correct, in between batch and stream loading, there is micro-batch loading.*
 
-****10.****Question 10
+**10.**Question 10
 
 Which of the following loading techniques can split a single file into smaller chunks?
 

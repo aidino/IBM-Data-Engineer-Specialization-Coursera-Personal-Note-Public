@@ -4,9 +4,9 @@ COURSE CODE: IBM DE
 Complete: No
 Time left: No due
 
-# ****Introduction to Linux****
+# **Introduction to Linux**
 
-## ****Linux Terminal Tips****
+## **Linux Terminal Tips**
 
 [Linux Terminal Tips - Tab completion, command history](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX0117EN-SkillsNetwork/labs/module%201/linux-terminal-tips.md.html?origin=www.coursera.org)
 
@@ -33,7 +33,7 @@ Time left: No due
 
 ## Practice Quiz: Introduction to Linux
 
-****1.****Question 1
+**1.**Question 1
 
 Which of the following statements about Linux is NOT true?
 
@@ -45,7 +45,7 @@ Clusters of Linux servers can be used for high-performance computing application
 
 The Android operating system used in many smartphones uses a Linux-based kernel.
 
-****2.****Question 2
+**2.**Question 2
 
 Which of the following is a Linux distribution?
 
@@ -57,7 +57,7 @@ FreeBSD
 
 IBM AIX
 
-****3.****Question 3
+**3.**Question 3
 
 Which of the following is an example of a shell?
 
@@ -69,7 +69,7 @@ Vim
 
 **Zsh**
 
-****4.****Question 4
+**4.**Question 4
 
 Which of the following is the best definition of a Linux terminal?
 
@@ -81,7 +81,7 @@ An application you can use to install Linux software
 
 **An application you can use to interact with the Linux shell**
 
-****5.****Question 5
+**5.**Question 5
 
 Which of the following text editors can you use in both GUI and command-line mode?
 
@@ -95,7 +95,7 @@ GNU nano
 
 ## Graded Quiz: Introduction to Linux
 
-****1.****Question 1
+**1.**Question 1
 
 Which of the following statements about Linux distributions is NOT true?
 
@@ -107,7 +107,7 @@ Each Linux distribution is tailored for a specific audience or task.
 
 **There are only three types of Linux distribution: core, desktop, and server.**
 
-****2.****Question 2
+**2.**Question 2
 
 Which layer of the Linux system contains system daemons and shells?
 
@@ -119,7 +119,7 @@ Operating system
 
 Kernel
 
-****3.****Question 3
+**3.**Question 3
 
 Which layer of the Linux system assigns software to users, helps detect errors, and performs file management tasks?
 
@@ -131,7 +131,7 @@ Kernel
 
 Hardware
 
-****4.****Question 4
+**4.**Question 4
 
 Which layer of the Linux system is responsible for memory management, process management, device driver management, and system calls and security?
 
@@ -143,7 +143,7 @@ Operating system
 
 Application
 
-****5.****Question 5
+**5.**Question 5
 
 Which of the following is NOT a directory in the Linux filesystem?
 
@@ -155,7 +155,7 @@ home
 
 bin
 
-****6.****Question 6
+**6.**Question 6
 
 Which of the following is a GUI-based text editor?
 
@@ -167,7 +167,7 @@ GNU nano
 
 vim
 
-****7.****Question 7
+**7.**Question 7
 
 Which of the following is a path that you can use to navigate to a user’s home directory?
 
@@ -179,7 +179,7 @@ C. \
 
 D. \myhome
 
-****8.****Question 8
+**8.**Question 8
 
 Packages are:
 
@@ -191,7 +191,7 @@ Text editors
 
 Kernels
 
-****9.****Question 9
+**9.**Question 9
 
 Which command can you use to convert package files between deb and RPM formats?
 
@@ -203,7 +203,7 @@ yum
 
 update
 
-****10.****Question 10
+**10.**Question 10
 
 An advantage of using a GUI-based package manager such as PackageKit is that:
 
@@ -215,7 +215,7 @@ It always installs all available updates, so users cannot opt to only install sp
 
 It works on deb- and RPM-based Linux.
 
-# ****Introduction to Linux Commands****
+# **Introduction to Linux Commands**
 
 ## **Hands-On Lab: Informational, File, and Directory Commands**
 
@@ -245,7 +245,7 @@ It works on deb- and RPM-based Linux.
 
 ## **Practice Quiz: Linux Commands**
 
-****1.****Question 1
+**1.**Question 1
 
 Which of the following is NOT one of the Linux shell definitions?
 
@@ -257,7 +257,7 @@ User interface for running commands
 
 **Enable access to applications**
 
-****2.****Question 2
+**2.**Question 2
 
 A Linux shell is an interface for running commands. It is also:
 
@@ -269,7 +269,7 @@ An operating system.
 
 A user-defined algorithm.
 
-****3.****Question 3
+**3.**Question 3
 
 Which two of the following four commands could you use to list running processes and information about each process?
 
@@ -283,7 +283,7 @@ The “ps” command is used to display the currently running processes, includi
 
 The “top” command acts like a Task Manager and will show running processes and their resource usage.
 
-****4.****Question 4
+**4.**Question 4
 
 Which one of the following four commands can be used to list the number of lines in your file?
 
@@ -295,7 +295,7 @@ head
 
 more
 
-****5.****Question 5
+**5.**Question 5
 
 Which one of the following four statements about Linux commands for customizing your view of a file’s contents is false?
 
@@ -307,7 +307,7 @@ The “grep” command returns lines of a file matching a specified pattern, suc
 
 You can use the paste command to merge lines from multiple files.
 
-****6.****Question 6
+**6.**Question 6
 
 Which of the following common shell commands for navigating files or directories prints the current working directory?
 
@@ -319,7 +319,7 @@ find
 
 cd
 
-****7.****Question 7
+**7.**Question 7
 
 The touch command is used to ___________:
 
@@ -331,7 +331,7 @@ copy a file or modify its executable permission.
 
 change the contents of an existing file or its access rights.
 
-****8.****Question 8
+**8.**Question 8
 
 Which of the following statements are true?
 
@@ -343,7 +343,7 @@ The zip command can be used to bundle files together into a single Linux kernel.
 
 The zip command can be used to parse a text file.
 
-****9.****Question 9
+**9.**Question 9
 
 Similar to curl – the wget command is used to ___________.
 
@@ -355,7 +355,7 @@ upload GNU files to a web server for subsequent hash code analysis.
 
 wrangle a file to get user data and other useful information.
 
-****10.****Question 10
+**10.**Question 10
 
 Which two of the following four commands can you use to retrieve files or data from a URL?
 
@@ -372,7 +372,7 @@ Correct. Use the “wget” command to retrieve files located at a given URL.
 
 ## **Graded Quiz: Linux Commands**
 
-****1.****Question 1
+**1.**Question 1
 
 Which of the following shells is usually the default on Linux systems?
 
@@ -384,7 +384,7 @@ zsh
 
 Bourne shell
 
-****2.****Question 2
+**2.**Question 2
 
 Which of the following statements would print the paths stored in your system’s PATH variable?
 
@@ -396,7 +396,7 @@ ps PATH
 
 echo PATH
 
-****3.****Question 3
+**3.**Question 3
 
 Which of the following is NOT a command for viewing file contents?
 
@@ -408,7 +408,7 @@ more
 
 cat
 
-****4.****Question 4
+**4.**Question 4
 
 Which command could you use to create a view of a text file which excludes consecutively repeated lines?
 
@@ -422,7 +422,7 @@ grep
 
 *Correct. If you have repeated lines in your file, you can use the uniq command to filter out the repeated lines. The uniq command only removes duplicated lines if they are consecutive.*
 
-****5.****Question 5
+**5.**Question 5
 
 The cd command enables you to change directories with either an absolute path to the directory, which always starts from the base or “slash” directory, or as relative path, which starts from your  ___________________.
 
@@ -436,7 +436,7 @@ home directory
 
 *Correct. To get to your immediate parent directory, you can enter the cd command along with the relative path symbol for its argument, as in “cd ..” .*
 
-****6.****Question 6
+**6.**Question 6
 
 Which of the following common shell commands for managing directories is used to delete an empty directory?
 
@@ -450,7 +450,7 @@ chmod
 
 *The “rmdir” command is used solely to remove empty directories. This guarantees that you will never accidentally delete any important files or directories.*
 
-****7.****Question 7
+**7.**Question 7
 
 Which of the following common shell commands for managing files or directories creates an empty file and updates a file timestamp?
 
@@ -464,7 +464,7 @@ mkdir
 
 *Correct, the “touch” command can be used to create empty files and update the file date.*
 
-****8.****Question 8
+**8.**Question 8
 
 Which one of the following four statements regarding file archiving and compression is false?
 
@@ -478,7 +478,7 @@ File compression involves reducing the size of a file by taking advantage of red
 
 *Correct. Archiving is the process of storing information that you don’t use regularly but want to preserve. Unlike compression, archiving does not reduce the size of a file.*
 
-****9.****Question 9
+**9.**Question 9
 
 Which of the following common networking commands displays information regarding your system’s communication devices?
 
@@ -492,7 +492,7 @@ wget
 
 *Correct, this networking command can display or configure system network interfaces.*
 
-****10.****Question 10
+**10.**Question 10
 
 Which one of the following four statements is false?
 
@@ -506,7 +506,7 @@ The ping command sends packets known as ICMP (Internet Control Message Protocol)
 
 *Correct. The hostname command is used to get or set the host name and other identifying information, but it does not return information about packet transmission rate.*
 
-# ****Introduction to Shell Scripting****
+# **Introduction to Shell Scripting**
 
 ## **Hands-on Lab: Getting Started with Shell Scripting**
 
@@ -538,7 +538,7 @@ The ping command sends packets known as ICMP (Internet Control Message Protocol)
 
 ## **Practice Quiz: Shell Scripting**
 
-****1.****Question 1
+**1.**Question 1
 
 What is one of the basic definitions of a script?
 
@@ -550,7 +550,7 @@ Interactive command
 
 List of shell commands
 
-****2.****Question 2
+**2.**Question 2
 
 Which of the following represents a 'shebang' directive?
 
@@ -562,7 +562,7 @@ Which of the following represents a 'shebang' directive?
 
 #!interpreter [directive]
 
-****3.****Question 3
+**3.**Question 3
 
 Filters take input from standard input and then return their output to standard output. What action describes the filter’s job?
 
@@ -574,7 +574,7 @@ Analyzer
 
 **Transformer**
 
-****4.****Question 4
+**4.**Question 4
 
 The cron utility allows you to schedule jobs to run at specific times. What is crond?
 
@@ -586,7 +586,7 @@ crontab
 
 cron table
 
-****5.****Question 5
+**5.**Question 5
 
 Metacharacters are special characters with specific meanings for the shell. Which of the following metacharacters separates commands that are typed on the same line?
 
@@ -598,13 +598,13 @@ Pound symbol
 
 Question mark
 
-## ****Linux and Bash Command Cheat Sheet: The Basics****
+## **Linux and Bash Command Cheat Sheet: The Basics**
 
 [Linux and Bash Command Cheat Sheet: The Basics](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX0117EN-SkillsNetwork/labs/module%201/ShellCommandsCheatSheet.md.html?origin=www.coursera.org)
 
 ## **Graded Quiz: Shell Scripting**
 
-****1.****Question 1
+**1.**Question 1
 
 Shell scripts are scripts that invoke a shell program. Which of the following invokes the Bourne shell program?
 
@@ -616,7 +616,7 @@ Shell scripts are scripts that invoke a shell program. Which of the following in
 
 #!/bin/zsh
 
-****2.****Question 2
+**2.**Question 2
 
 What is one of the advantages of shell scripts over compiled languages?
 
@@ -628,7 +628,7 @@ Interactively enter commands on command line
 
 **Easier and faster to develop**
 
-****3.****Question 3
+**3.**Question 3
 
 Which symbol is used for chaining filter commands?
 
@@ -640,7 +640,7 @@ equals sign =
 
 **pipe command |**
 
-****4.****Question 4
+**4.**Question 4
 
 What does chaining filters together produce?
 
@@ -652,7 +652,7 @@ Examiner
 
 Multi-use script
 
-****5.****Question 5
+**5.**Question 5
 
 What symbol do you use to define shell variables?
 
@@ -664,7 +664,7 @@ greater than symbol >
 
 **equal sign =**
 
-****6.****Question 6
+**6.**Question 6
 
 Which command lists all environment variables?
 
@@ -676,7 +676,7 @@ gree
 
 export
 
-****7.****Question 7
+**7.**Question 7
 
 Which of the following is the cron job syntax?
 
@@ -688,7 +688,7 @@ crontab -e
 
 time day date command
 
-****8.****Question 8
+**8.**Question 8
 
 Scheduling cron jobs with crontab involves a series of steps. Which step opens the default text editor?
 
@@ -700,7 +700,7 @@ Second step
 
 Third step
 
-****9.****Question 9
+**9.**Question 9
 
 Quoting is used to specify whether the shell should interpret special characters as metacharacters, or ‘escape’ them. When used in conjunction with the echo command, which of the following statements is true?
 
@@ -712,7 +712,7 @@ You can use the backslash “\” to interpret a single character as a metachara
 
 The backslash “\” acts like a new line character.
 
-****10.****Question 10
+**10.**Question 10
 
 I/O redirection is a set of features that redirect either the standard input or the standard output. Which symbol redirects an error message to a file?
 
@@ -726,7 +726,7 @@ I/O redirection is a set of features that redirect either the standard input or 
 
 # Final Project
 
-## ****Shell Script: Conditionals****
+## **Shell Script: Conditionals**
 
 ### **If**
 
@@ -890,9 +890,9 @@ a is less than b
 
 [](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-LX0117EN-SkillsNetwork/labs/Final%20Project/Final_Project.md.html)
 
-# ****Final Exam****
+# **Final Exam**
 
-****1.****Question 1
+**1.**Question 1
 
 Which of the following distros is focused on enterprise customers?
 
@@ -906,7 +906,7 @@ Debian
 
 *Correct. Red Enterprise Hat Linux is focused on enterprise customers.*
 
-****2.****Question 2
+**2.**Question 2
 
 Which layer of the Linux system enables users to interact with the Linux operating system?
 
@@ -920,7 +920,7 @@ Kernal
 
 *Correct. The application layer contains software that enables you to perform tasks.*
 
-****3.****Question 3
+**3.**Question 3
 
 Which shell command can you use to change the current working directory to the parent of that directory?
 
@@ -934,7 +934,7 @@ cd.
 
 *Correct. Entering “cd ..” changes your current working directory to the parent of the current working directory.*
 
-****4.****Question 4
+**4.**Question 4
 
 Which shell command can you use to print the entire contents of a file?
 
@@ -948,7 +948,7 @@ wget
 
 *Correct. The cat command prints the entire contents of a file.*
 
-****5.****Question 5
+**5.**Question 5
 
 Assume your present working directory is folder1, which contains a file named file1.txt and a folder named folder2. Also assume folder2 contains a file named file2.txt. Which of the following commands would successfully remove folder2?
 
@@ -964,7 +964,7 @@ rm folder1/ folder2
 
 *command can only remove empty directories, so you cannot use this command to successfully remove folder2.*
 
-****6.****Question 6
+**6.**Question 6
 
 Assume you run the command wc usdoi.txt and receive the following output: 152 1330 8121 usdoi.txt What does the number “1330” indicate about usdoi.txt?
 
@@ -978,7 +978,7 @@ Number of characters
 
 *Correct. The wc command will return, in order, the number of lines, words, and characters in a file. In this example, the output of wc usdoi.txt indicates that usdoi.txt contains 152 lines, 1,330 words, and 8,121 characters.*
 
-****7.****Question 7
+**7.**Question 7
 
 Which of the following commands prints all lines in the file contract.txt that contain the word “will” and ignores the case of the text while matching?
 
@@ -992,7 +992,7 @@ cut -n will contract.txt
 
 *Correct. The grep command allows you to specify a pattern and search for lines from the input text that contain a match to the pattern. Add the i option to the command to ignore the case of the text while matching.*
 
-****8.****Question 8
+**8.**Question 8
 
 Which of the following commands creates an archive of the /etc directory and names this archive etc.tar?
 
@@ -1006,7 +1006,7 @@ tar -xf /etc etc.tar
 
 *Correct. The tar command allows you to pack multiple files and directories into a single archive file. To create a new archive file, you must include the -c option. After listing the -c option, you must list the name for the new archive file and then the file’s destination path.*
 
-****9.****Question 9
+**9.**Question 9
 
 Which of the following commands will print the IP address of the system’s host?
 
@@ -1020,7 +1020,7 @@ hostname -d
 
 *Correct. The command hostname will print the current host name. To print the IP address of the system’s host, you must also include the -i option.*
 
-****10.****Question 10
+**10.**Question 10
 
 Assume you have a file named storelist.txt. In the terminal, you want to display only the last 10 lines of the file. From this list of 10 lines, you also want to omit any consecutive repeated lines from the output. Which of the following Bash inputs should you use?
 
@@ -1034,7 +1034,7 @@ uniq storelist.txt\> tail
 
 *Correct. The tail command prints the last 10 lines of a file. The uniq command prints each line of a file while omitting consecutive repeated lines from the output. In this example, first run the tail command on storelist.txt. Next, use the pipe operator (|) followed by the uniq command to print the output from tail storelist.txt while omitting consecutive repeated lines.*
 
-****11.****Question 11
+**11.**Question 11
 
 Which of the following lines of input creates a new shell variable named language and stores the string 'German' in it?
 
@@ -1048,7 +1048,7 @@ $language=’German’
 
 *Correct. To create a new shell variable, input the name of the new variable. Next, input an equal sign (=) followed by the variable’s value. If the value is a string, surround the value with single or double quotation marks.*
 
-****12.****Question 12
+**12.**Question 12
 
 Which of the following commands stores the output of the pwd command in a variable named present?
 
@@ -1062,7 +1062,7 @@ present=\>(pwd)
 
 *Correct. To store the output of a command in a variable, input the name of the new variable followed by an equal sign (=). Next, input the command and ensure the command is encapsulated by parentheses with a dollar sign ($) in front. Instead of using parentheses and a dollar sign, you can also encapsulate the command within backquotes (`).*
 
-****13.****Question 13
+**13.**Question 13
 
 Which of the following inputs could you use to run the hostname command and ifconfig command sequentially?
 
@@ -1076,7 +1076,7 @@ hostname & ifconfig
 
 *Correct. You can use the semi-colon (;) operator to make two Bash commands run sequentially.*
 
-****14.****Question 14
+**14.**Question 14
 
 Which of the following cron commands removes the current crontab?
 
@@ -1090,7 +1090,7 @@ crontab -l
 
 *Correct. Entering crontab -r on the command line removes the current crontab.*
 
-****15.****Question 15
+**15.**Question 15
 
 Which of the following examples of cron syntax will append the current date to the file “mondays.txt” at 8:00 AM every Monday?
 
