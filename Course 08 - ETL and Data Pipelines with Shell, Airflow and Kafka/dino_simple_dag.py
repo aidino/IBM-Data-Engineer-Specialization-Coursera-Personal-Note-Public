@@ -33,3 +33,6 @@ task2 = BashOperator(
     dag=dag,
 )
 
+# Task pipeline
+
+task1 >> task2
