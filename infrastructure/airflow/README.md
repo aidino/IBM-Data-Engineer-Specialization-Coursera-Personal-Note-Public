@@ -1,0 +1,1 @@
+[Reference](https://hub.docker.com/r/bitnami/airflow/#environment-variables)
