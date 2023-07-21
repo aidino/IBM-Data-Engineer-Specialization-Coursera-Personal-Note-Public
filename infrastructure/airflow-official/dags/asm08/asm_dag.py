@@ -53,3 +53,19 @@ extract_data_from_fixed_width = BashOperator(
     dag=dag,
 )
 
+consolidate_data = BashOperator(
+    task_id='consolidate_data',
+    bash_command="paste csv_data.csv tsv_data.csv fixed_width_data.csv > extracted_data.csv",
+    dag=dag,
+)
+
+transform_data = BashOperator(
+    task_id='transform_data',
+    bash_command='tr "[a-z]" "[A-Z]" < extracted_data.csv > transformed_data.csv',
+    dag=dag,
+)
+
+# task pipeline
+unzip_data >> extract_data_from_csv >> extract_data_from_tsv >> extract_data_from_fixed_width >> consolidate_data >> transform_data
+
+
