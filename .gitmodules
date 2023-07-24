@@ -1,3 +1,6 @@
 [submodule "infrastructure/kafka"]
 	path = infrastructure/kafka
 	url = git@github.com:conduktor/kafka-stack-docker-compose.git
+[submodule "infrastructure/superset"]
+	path = infrastructure/superset
+	url = git@github.com:apache/superset.git
