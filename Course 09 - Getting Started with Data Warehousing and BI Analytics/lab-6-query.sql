@@ -120,3 +120,20 @@ order by year, category;
 --       | I        |         672775216
 --       |          |        1320220745
 -- (36 rows)
+
+-- Create a Materialized Query Table(MQT)
+-- Step 1: Create the MQT
+CREATE MATERIALIZED VIEW countrystats (country, year, totalbilledamount) AS
+(select country, year, sum(billedamount)
+from "FactBilling"
+left join "DimCustomer"
+on "FactBilling".customerid = "DimCustomer".customerid
+left join "DimMonth"
+on "FactBilling".monthid="DimMonth".monthid
+group by country,year);
+
+-- Step 2: Populate/refresh data into the MQT.
+REFRESH MATERIALIZED VIEW countrystats;
+
+select * from countrystats;
+
