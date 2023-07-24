@@ -50,3 +50,10 @@
     - Zookeeper will be available at `$DOCKER_HOST_IP:2181,$DOCKER_HOST_IP:2182,$DOCKER_HOST_IP:2183`
     - Kafka will be available at `$DOCKER_HOST_IP:9092,$DOCKER_HOST_IP:9093,$DOCKER_HOST_IP:9094`
 
+- **Superset - BI tools**
+  - update: `x-superset-image: ... superset:${TAG:-latest-dev}` to `x-superset-image: ... superset:2.1.0` in `docker-compose-non-dev.yml`
+  - file: `docker-compose-non-dev.yml`
+  - x.x.x.x:8088
+  - username: admin
+  - password: admin
+
