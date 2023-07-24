@@ -57,3 +57,14 @@
   - username: admin
   - password: admin
 
+- **MongoDB**
+  - mongo: x.x.x.x:27017
+  - mongo-express: x.x.x.x:8081
+  - username: admin
+  - password: adminpass 
+
+- **Cassandra**
+  - x.x.x.x: 9042
+  - CASSANDRA_SEEDS=cassandra
+  - CASSANDRA_PASSWORD_SEEDER=yes
+  - CASSANDRA_PASSWORD=cassandra
