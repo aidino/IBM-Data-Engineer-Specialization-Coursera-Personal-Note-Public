@@ -15,6 +15,9 @@ services:
       - SPARK_USER=spark
     ports:
       - '8080:8080'
+    networks:
+      - spark-network
+
   spark-worker:
     image: docker.io/bitnami/spark:3.4
     environment:
@@ -27,3 +30,22 @@ services:
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - SPARK_SSL_ENABLED=no
       - SPARK_USER=spark
+    networks:
+      - spark-network
+
+  jupyter:
+    image: jupyter/pyspark-notebook # Pre-built Jupyter Notebook image with PySpark
+    container_name: jupyter
+    ports:
+      - "8888:8888" # Expose the Jupyter Notebook port
+    environment:
+      - SPARK_MASTER=spark://spark:7077
+    depends_on:
+      - spark
+    networks:
+      - spark-network
+
+networks:
+  spark-network:
+    driver: bridge
+  
