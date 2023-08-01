@@ -27,24 +27,24 @@ services:
       KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9093,OUTSIDE://0.0.0.0:9092
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,OUTSIDE:PLAINTEXT
   filebeat:
-    image: docker.elastic.co/beats/filebeat:8.3.3
+    image: docker.elastic.co/beats/filebeat-oss:8.9.0
     container_name: filebeat
     volumes:
       - ./config/filebeat.yml:/usr/share/filebeat/filebeat.yml
       - ./access-logs:/var/log/apache2
-  pinot-controller:
-    image: apachepinot/pinot:0.11.0
-    command: "QuickStart -type EMPTY"
-    container_name: "pinot-controller"
-    restart: unless-stopped
-    ports:
-      - "9000:9000"
-      - "8000:8000"
-    depends_on:
-      - zookeeper
-  superset:
-    image: apachepinot/pinot-superset:latest
-    container_name: "superset"
-    restart: unless-stopped
-    ports:
-      - "8088:8088"    
+  # pinot-controller:
+  #   image: apachepinot/pinot:0.11.0
+  #   command: "QuickStart -type EMPTY"
+  #   container_name: "pinot-controller"
+  #   restart: unless-stopped
+  #   ports:
+  #     - "9000:9000"
+  #     - "8000:8000"
+  #   depends_on:
+  #     - zookeeper
+  # superset:
+  #   image: apachepinot/pinot-superset:latest
+  #   container_name: "superset"
+  #   restart: unless-stopped
+  #   ports:
+  #     - "8088:8088"    
