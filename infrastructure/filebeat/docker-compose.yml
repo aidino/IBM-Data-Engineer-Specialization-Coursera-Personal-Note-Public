@@ -7,8 +7,8 @@ services:
     environment:
         - strict.perms=false
     volumes:
-        - './filebeat.yml:/usr/share/filebeat/filebeat.yml:ro'
-        - './data:/usr/share/filebeat/data:rw'
+        - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
+        - ./data:/usr/share/filebeat/data
         - ./access-logs:/var/log/apache2
     command: filebeat -e
     logging:
