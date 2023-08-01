@@ -9,8 +9,7 @@ services:
     volumes:
         - './filebeat.yml:/usr/share/filebeat/filebeat.yml:ro'
         - './data:/usr/share/filebeat/data:rw'
-        - '/var/log/nginx:/usr/share/services/nginx'
-        - '/home/ubuntu/.pm2/logs:/usr/share/services/node'
+        - ./access-logs:/var/log/apache2
     command: filebeat -e
     logging:
       driver: "json-file"

@@ -1,24 +1,16 @@
-filebeat.prospectors:
-- type: log
-  enabled: true
-  tags:
-    - app_1_nginx
+filebeat.inputs:
+- type: filestream
+  id: access-logs
   paths:
-    - /usr/share/services/nginx/*.log
-
-- type: log
-  enabled: true
-  tags:
-    - app_1_pm2
-  paths:
-    - /usr/share/services/node/*.log
+    - "/var/log/apache2/*.log"
 
 output.kafka:
-  version: 0.10.2.1
   hosts: ["192.168.193.254:9092"]
-  topic: 'applogs'
-  partition.round_robin:
-    reachable_only: false
-  required_acks: 1
-  compression: gzip
-  max_message_bytes: 1000000
+  topic: "apache2"
+  topics:
+    - topic: "error"
+      when.contains:
+        message: "ERR"
+    - topic: "access"
+      when contains:
+        message: "\"GET .*\" 200"
