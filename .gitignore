@@ -3,5 +3,8 @@ infrastructure/airflow-official/logs/
 pyspark-tutorial/.DS_Store
 .DS_Store
 .DS_Store
+<<<<<<< Updated upstream
 .DS_Store
 .DS_Store
+=======
+>>>>>>> Stashed changes
