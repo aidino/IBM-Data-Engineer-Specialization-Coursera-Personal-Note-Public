@@ -1,4 +1,7 @@
-Reference: https://towardsdatascience.com/a-minimalist-end-to-end-scrapy-tutorial-part-i-11e350bcdec0
+References: 
+- https://towardsdatascience.com/a-minimalist-end-to-end-scrapy-tutorial-part-i-11e350bcdec0
+- https://github.com/harrywang/scrapy-selenium-demo
+- https://towardsdatascience.com/web-scraping-with-scrapy-theoretical-understanding-f8639a25d9cd
 
 - let’s analyze the response, i.e., the HTML page at http://quotes.toscrape.com using Scrapy Shell by running 
 
