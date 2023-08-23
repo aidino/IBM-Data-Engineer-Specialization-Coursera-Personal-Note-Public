@@ -6,6 +6,7 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+import os
 
 BOT_NAME = "tutorial"
 
@@ -18,6 +19,26 @@ NEWSPIDER_MODULE = "tutorial.spiders"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
+
+# PostgreSQL database connection string
+# DATABASE = {
+#     "drivername": "postgres",
+#     "host": os.environ["POSTGRES_HOST"],
+#     "port": os.environ["POSTGRES_PORT"],
+#     "username": os.environ["POSTGRES_USER"],
+#     "password": os.environ["POSTGRES_PASS"],
+#     "database": os.environ["POSTGRES_DB"],
+# }
+DATABASE = {
+    "drivername": "postgres",
+    "host": "localhost",
+    "port": "5432",
+    "username": "postgres",
+    "password": "",
+    "database": "postgres",
+}
+CONNECTION_STRING = \
+    f"postgresql://{DATABASE['username']}:{DATABASE['password']}@{DATABASE['host']}:{DATABASE['port']}/{DATABASE['database']}"
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -62,9 +83,10 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "tutorial.pipelines.TutorialPipeline": 300,
-#}
+ITEM_PIPELINES = {
+    "tutorial.pipelines.DuplicatesPipeline": 100,
+    "tutorial.pipelines.SaveQuotesPipeline": 200,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
