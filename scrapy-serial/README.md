@@ -140,3 +140,27 @@ CREATE TABLE IF NOT EXISTS chocolate_products (
 
 ```
 
+### Part 4: User Agents and Proxies
+
+- To use the scrapy-user-agents download middleware, simply install it:
+
+```bash
+pip install scrapy-user-agents
+
+```
+
+Then in add it to your projects `settings.py` file, and disable Scrapy's default `UserAgentMiddleware` by setting its value to None:
+
+```python
+DOWNLOADER_MIDDLEWARES = {
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
+}
+```
+
+- Using Proxies to Bypass Anti-bots and CAPTCHA's
+
+```bash
+
+pip install scrapy-rotating-proxies
+```
